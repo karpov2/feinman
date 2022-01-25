@@ -1,196 +1,222 @@
-.divap{
-align-items: center;
+.divap {
+    align-items: center;
 }
+
+/* Илья: Убрать не используемый код */
 
 /* .page {
   /*  min-width: 1100px; */
-    /* мы ещё не умеем делать мобильную версию сайта, */
-    /* поэтому выше установлена минимальная ширина страницы */
-  /*  max-width: 1600px;
-    /* выше установили ограничение по максимальной ширине */
-  /*  margin: 0 auto;
-    /* выше для экранов больше 1600px отцентрировали весь контент */
-  /*  font-family: 'Helvetica Neue', Arial, sans-serif; */
+/* мы ещё не умеем делать мобильную версию сайта, */
+/* поэтому выше установлена минимальная ширина страницы */
+/*  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+/*  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+/*  font-family: 'Helvetica Neue', Arial, sans-serif; */
 /*} */
 
 /*.header__link {
     height: 300px;
     width: 300px;
     display:flex;
-    border: 5px solid rgb(10, 252, 50);    
+    border: 5px solid rgb(10, 252, 50);
 } */
 .description__block {
 
-position:relative;
-margin:auto;
-height:500px;
-width: 80%; 
-min-width: 784px;
+    position: relative;
+    margin: auto;
+    height: 500px;
+    width: 80%;
+    min-width: 784px;
 
-    
-    
 
 }
-.columns{ 
-    
-    height:100%;
-    position:absolute;
+
+.columns {
+
+    height: 100%;
+    position: absolute;
     width: 175px;
- 
-}
-.columns__text {
-position:relative;
-top:20px;
-left:5px;
-text-shadow:rgb(0, 0, 0) 1px 10px 10px;
 
 }
+
+.columns__text {
+    position: relative;
+    top: 20px;
+    left: 5px;
+    text-shadow: rgb(0, 0, 0) 1px 10px 10px;
+
+}
+
 .description__box-three {
-    height:100%;
-    justify-content:space-between;
+    height: 100%;
+    justify-content: space-between;
     flex-direction: column;
     display: flex;
 
 }
-.description__block-three{
-   
-    position:absolute;
-    margin-left:300px;
-    height:100%;
-    
+
+.description__block-three {
+
+    position: absolute;
+    margin-left: 300px;
+    height: 100%;
+
 }
+
 .description__block-one {
-  
+
     height: auto;
-    width:auto;
-    
-    
-    
-} 
-.description__block_one-text{
-   font-size: 18px;
-   font-weight: normal;
-   line-height:1.2;
-   letter-spacing:1.2px;
-   text-shadow:rgb(0, 0, 0) 1px 10px 10px;
-  
- 
-   
-   
+    width: auto;
+
+
 }
+
+.description__block_one-text {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    text-shadow: rgb(0, 0, 0) 1px 10px 10px;
+
+
+}
+
 .description__block-two {
-   
+
     height: auto;
-    width:auto;
+    width: auto;
     display: block;
-}    
+}
+
 .description__block_two-text {
     font-size: 24px;
     font-weight: normal;
     line-height: 34px;
-    letter-spacing:1.2px;
-    text-shadow:rgb(0, 0, 0) 1px 10px 10px;
+    letter-spacing: 1.2px;
+    text-shadow: rgb(0, 0, 0) 1px 10px 10px;
 }
+
 .description__block_three {
-    
+
     height: auto;
-    width:auto;  
+    width: auto;
     display: block;
 }
+
 .description__block_three-text {
     font-size: 18px;
-   font-weight: normal;
-   line-height: 34px;
-   letter-spacing:1.2px;
-   text-shadow:rgb(0, 0, 0) 1px 10px 10px;
+    font-weight: normal;
+    line-height: 34px;
+    letter-spacing: 1.2px;
+    text-shadow: rgb(0, 0, 0) 1px 10px 10px;
 }
+
 .description {
-margin-top:80px;
-display:flex;
-height:auto;
-
+    margin-top: 80px;
+    display: flex;
+    height: auto;
 
 
 }
+
 .subtitle {
-    position:absolute;
-    left:64px;
-    bottom:30px;
-    width:388px;
-} 
+    position: absolute;
+    left: 64px;
+    bottom: 30px;
+    width: 388px;
+}
+
 .header__subtitle {
 
 
 }
+
+/* Илья: Этот класс вообще не нужен - достаточно "header__title" */
 .header__title-text {
     font-size: 102px;
-    font-weight:normal;
-    line-height:96px;
-} 
+    /* Илья: Ошибка, в pdf написано "начертание шрифта полужирное" - он должен быть жирным, а у тебя он normal */
+    font-weight: normal;
+    line-height: 96px;
+}
+
 .header__title {
-    position:absolute;
-    top:30%;
-    left:64px;
-    width:730px;
-    
-    
-   
-}
-.header__title-box {
-    /*min-height: 600px; 
-    max-height: 756px; 
-    position:relative;*/
-    height:100%;
-    
-}
-.logo_place_header {
-position:absolute;
-position:flex-start;
-top:30px;
-left:64px;
-}
-.header__img {
-     display:flex;
-    height:100wv;
-    width:100vh;
-    top:0px;
-    right:0px;
-    bottom:0px;
     position: absolute;
-}
-.header__background-color {
-background-color: rgb(28, 137, 226);
-width:450px;
-height:450px;
-position:absolute;
-top:64px;
-right:0px;
-display:flex;
-}
-.header__img_page {
-    display:flex;
-    position: absolute;
-    right:0px;
-    bottom:0px;
-    top:95px;
+    top: 30%;
+    left: 64px;
+    width: 730px;
+
 
 }
+
+/* Илья: Этот класс вообще не нужен - достаточно "header__title" */
+.header__title-box {
+    /* Илья: Убрать не используемый код */
+    /* Илья: У тебя заголовок во всю высоту, так не надо, надо с помощью flex выровнять */
+    /*min-height: 600px;
+    max-height: 756px;
+    position:relative;*/
+    height: 100%;
+
+}
+
+.logo_place_header {
+    /* Илья: Ошибка, не может быть 2 раза использоваться 1 свойство position */
+    position: absolute;
+    position: flex-start;
+    top: 30px;
+    left: 64px;
+}
+
+.header__img {
+    display: flex;
+    /* Илья: Ошибка синтаксиса - нельзя использовать пробел между числом и единицей измерения */
+    height: 100 wv;
+    width: 100vh;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
+.header__background-color {
+    background-color: rgb(28, 137, 226);
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 64px;
+    right: 0px;
+    display: flex;
+}
+
+.header__img_page {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top: 95px;
+
+}
+
 .body {
-    
+
     height: auto;
     width: auto;
-    position:relative;
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
 
-    
+
 }
+
+/* Илья: Убрать не используемый код */
+
 /*.footer {
 
     border: 5px solid red;
     height: 300px;
     width: 300px;
     display:flex;
-}  
+}
 
 /*.kaufman {
     border: 5px solid red;
@@ -206,54 +232,64 @@ display:flex;
     display:flex;
 }
 */
-.digits{
-    
-    width:auto;
-    margin-top:100px;
-    height: auto;
-    display:flex;
-    position:relative;
-}
-.digits__box {
-    
-    height:100%;
-    width:100vw;
+.digits {
 
-    
+    width: auto;
+    margin-top: 100px;
+    height: auto;
+    display: flex;
+    position: relative;
 }
-.digits__box-h1 { 
-    text-shadow:rgb(0, 0, 0) 1px 10px 10px;
+
+.digits__box {
+
+    height: 100%;
+    width: 100vw;
+
+
+}
+
+.digits__box-h1 {
+    text-shadow: rgb(0, 0, 0) 1px 10px 10px;
     width: 60%;
-    height:0px auto;
-    margin:0px auto;
+    /* Илья: Ошибка, у свойства height нет значения auto */
+    height: 0px auto;
+    margin: 0px auto;
     text-align: center;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
-.digits__box-p{
-    text-shadow:rgb(0, 0, 0) 1px 10px 10px;
+
+.digits__box-p {
+    text-shadow: rgb(0, 0, 0) 1px 10px 10px;
     width: 60%;
-    height:0px auto;
-    margin:0px auto;
+    /* Илья: Ошибка, у свойства height нет значения auto */
+    height: 0px auto;
+    margin: 0px auto;
     text-align: center;
-    
+
 }
-.digits__h1{
-    margin:5px auto auto auto;
-    font-size:60px;
+
+.digits__h1 {
+    margin: 5px auto auto auto;
+    font-size: 60px;
     font-weight: 550;
     line-height: 69px;
-    letter-spacing:1.2px;
+    letter-spacing: 1.2px;
 }
-.section-subtitle{
-    margin:5px auto auto auto;
-    font-size:24px;
+
+.section-subtitle {
+    margin: 5px auto auto auto;
+    font-size: 24px;
     font-weight: normal;
     line-height: 34px;
-    letter-spacing:1px;
+    letter-spacing: 1px;
 }
+
 a {
-text-decoration:none; 
+    text-decoration: none;
 }
+/* Илья: Убрать не используемый код */
+
 /*.content {
     border: 5px solid red;
     height: 300px;
@@ -262,13 +298,16 @@ text-decoration:none;
 }*/
 .header {
     height: 100vh;
-    min-height: 600px; 
-    max-height: 756px; 
-    width:auto;
+    min-height: 600px;
+    max-height: 756px;
+    width: auto;
     background-color: #F2F2F2;
-    position:relative;
+    position: relative;
     /* выше установили ограничения для секции */
 }
+
+/* Илья: Убрать не используемый код */
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 /*.header__square-pic {
   /*  height: 568px;
@@ -284,299 +323,355 @@ text-decoration:none;
     margin-right: 0;
     margin-top: 80px;
 } */
-.digits__table{
-    
+.digits__table {
+
     height: 100vh;
-    width:100%;
-    position:absolute;
-    top:130px;
-    left:0px;
-    right:0px;
-    bottom:0px;
-    display:flex;
-    }
-.digits__table-1{
-    
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
     display: flex;
-    margin-top:60px;
-    justify-content: center;
-    
 }
-.digits__table-2{
-    
+
+.digits__table-1 {
+
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+
+}
+
+.digits__table-2 {
+
     display: flex;
     justify-content: center;
-    margin-top:60px;
+    margin-top: 60px;
 
 }
 
 .table-text {
-    
+
     height: auto;
     width: 230px;
-  /*  padding:0px 10px;*/
+    /* padding:0px 10px;*/
     text-align: left;
     line-height: 1.2;
-    text-shadow:rgb(0, 0, 0) 1px 10px 10px;
+    text-shadow: rgb(0, 0, 0) 1px 10px 10px;
 
 }
+
 .feinman {
-width:auto;
-margin-top:100px;
-height: 100vh;
-background-color: #F2F2F2;
-position:relative;
-display:flex;
+    width: auto;
+    margin-top: 100px;
+    height: 100vh;
+    background-color: #F2F2F2;
+    position: relative;
+    display: flex;
 
 
 }
+
 .feinman__img-box {
-    flex:1 1 auto;
-width:50%;
-height:100%;
-position:relative;
-flex:1 1 auto;
-min-height:300px ;
-min-width:300px;
+    flex: 1 1 auto;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* Илья: Ошибка, дублирование свойства flex */
+    flex: 1 1 auto;
+    min-height: 300px;
+    min-width: 300px;
 }
-.feinman__images{
-    width:100%;
-    height:600px;
-    position:absolute;
-    left:0px;
-    bottom:0px;
-    flex:1 1 auto;
-   min-height:300px ;
-   min-width:300px;
+
+.feinman__images {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    flex: 1 1 auto;
+    min-height: 300px;
+    min-width: 300px;
 }
-.feinman__text-boox{
-    flex:1 1 auto;
+
+.feinman__text-boox {
+    flex: 1 1 auto;
     width: 648px;
-    height:400px;
-    position:absolute;
-    margin:0px 300px 500px 420px ;
-    flex:1 1 auto;
-    min-height:300px ;
-    min-width:300px;
-    flex-wrap:wrap;
+    height: 400px;
+    position: absolute;
+    margin: 0px 300px 500px 420px;
+    /* Илья: Ошибка, дублирование свойства flex */
+    flex: 1 1 auto;
+    min-height: 300px;
+    min-width: 300px;
+    flex-wrap: wrap;
 }
-.feinman__h1{
-    flex:1 1 auto;
-text-align:center;
-font-size:120px;
-line-height: 1.15;
-margin-top:0px;
+
+.feinman__h1 {
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: 120px;
+    line-height: 1.15;
+    margin-top: 0px;
 }
+
 .feinman__text-p {
-    text-align:center;
-    font-size:36px;
+    text-align: center;
+    font-size: 36px;
     line-height: 1;
-    font-weight:normal;
-    margin-top:-25px;
-    flex:1 1 auto;
+    font-weight: normal;
+    margin-top: -25px;
+    flex: 1 1 auto;
 }
+
 .feinman__text-link {
-    font-size:36px;
+    font-size: 36px;
     line-height: 1;
-    font-weight:normal;
+    font-weight: normal;
     margin-top: 332px;
-    margin-left:450px;
-  
+    margin-left: 450px;
+
 }
+
 .kaufman {
-    width:auto;
+    width: auto;
     height: 780px;
-     position:relative;
+    position: relative;
     background-color: #1F1F1F;
-    overflow:hidden; 
+    overflow: hidden;
 }
 
 .kaufman__boox {
-    width:1493px;
-    height:859px;
-    
+    width: 1493px;
+    height: 859px;
+
 }
+
 .kaufman__box-img {
 
 }
+
 .kaufman__img {
     margin-left: 750px;
 
 
 }
-.kaufman__table{
+
+.kaufman__table {
     height: 100vh;
-    width:100%;
-    color:rgb(255, 255, 255);
-    position:absolute;
-    top:90px
-   }
-.kaufman__table-1{
-    
+    width: 100%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 90px
+}
+
+.kaufman__table-1 {
+
     display: flex;
-    margin-top:60px;
+    margin-top: 60px;
     justify-content: center;
-    color:rgb(255, 255, 255)
-    
+    color: rgb(255, 255, 255)
+
 }
-.kaufman__table-2{
-    color:rgb(255, 255, 255);
+
+.kaufman__table-2 {
+    color: rgb(255, 255, 255);
+    /* Илья: Ошибка, дублирование свойства display */
     display: flex;
     justify-content: center;
-    margin-top:60px;
+    margin-top: 60px;
     display: flex;
 }
-.kaufman__1{margin:0px 10px 0px 10px;
+
+.kaufman__1 {
+    margin: 0px 10px 0px 10px;
 }
-.kaufman__2{margin:0px 10px 0px 10px;
+
+.kaufman__2 {
+    margin: 0px 10px 0px 10px;
 }
-.kaufman__3{margin:0px 10px 0px 10px;
+
+.kaufman__3 {
+    margin: 0px 10px 0px 10px;
 }
-.kaufman__4{margin:0px 10px 0px 10px;
+
+.kaufman__4 {
+    margin: 0px 10px 0px 10px;
 }
-.kaufman__5{margin:0px 10px 0px 10px;
+
+.kaufman__5 {
+    margin: 0px 10px 0px 10px;
 }
-.kaufman__6{margin:0px 10px 0px 10px;
+
+.kaufman__6 {
+    margin: 0px 10px 0px 10px;
 }
-.kaufman__7{margin:0px 10px 0px 10px;
+
+.kaufman__7 {
+    margin: 0px 10px 0px 10px;
 }
-.kaufman__8 {margin:0px 10px 0px 10px;
+
+.kaufman__8 {
+    margin: 0px 10px 0px 10px;
 }
-.kaufman__9{margin:0px 10px 0px 10px;
+
+.kaufman__9 {
+    margin: 0px 10px 0px 10px;
 }
-.kaufman__10{margin:0px 10px 0px 10px;
+
+.kaufman__10 {
+    margin: 0px 10px 0px 10px;
 }
+
 .kaufman__box {
-    height:100vh;
-    width:auto;
-   position:absolute;
-   left:5px;
-   top:90px;
-   right:5px;
-   bottom:5px;
+    height: 100vh;
+    width: auto;
+    position: absolute;
+    left: 5px;
+    top: 90px;
+    right: 5px;
+    bottom: 5px;
 
 
-    
 }
-.kaufman__box-h1 { 
-    color:rgb(255, 255, 255);
+
+.kaufman__box-h1 {
+    color: rgb(255, 255, 255);
     width: 60%;
-    height:0px auto;
-    margin:0px auto;
+    /* Илья: Ошибка, у свойства height нет значения auto */
+    height: 0px auto;
+    /* Илья: Ошибка, свойство margin не может дублироваться, ниже ты используешь margin-bottom */
+    /* Илья: можно вот так попробовать "margin: 20px auto;" */
+    margin: 0px auto;
     text-align: center;
-    margin-bottom:20px;
-    text-shadow:rgb(0, 0, 0) 1px 10px 10px;
+    /* Илья: Ошибка, свойство margin не может дублироваться, выше ты используешь margin */
+    margin-bottom: 20px;
+    text-shadow: rgb(0, 0, 0) 1px 10px 10px;
 }
-.kaufman__box-p{
-    color:rgb(255, 255, 255);
+
+.kaufman__box-p {
+    color: rgb(255, 255, 255);
     width: 60%;
-    height:0px auto;
-    margin:0px auto;
+    /* Илья: Ошибка, у свойства height нет значения auto */
+    height: 0px auto;
+    margin: 0px auto;
     text-align: center;
-    text-shadow:rgb(0, 0, 0) 1px 10px 10px;
+    text-shadow: rgb(0, 0, 0) 1px 10px 10px;
 }
-.kaufman__h1{
-    margin:5px auto auto auto;
-    font-size:60px;
+
+.kaufman__h1 {
+    margin: 5px auto auto auto;
+    font-size: 60px;
     font-weight: 550;
     line-height: 69px;
-    letter-spacing:1.2px;
+    letter-spacing: 1.2px;
 }
+
 .table-texte {
     height: auto;
     width: 230px;
     text-align: left;
     line-height: 1.2;
-    color:rgb(255, 255, 255);
-    text-shadow:rgb(0, 0, 0) 1px 10px 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 1px 10px 10px;
 }
 
 
-.footer{
+.footer {
 
-width:auto;
-height:50vh;
-background-color:#1F1F1F;
-color:azure;
-display:flex;
+    width: auto;
+    height: 50vh;
+    background-color: #1F1F1F;
+    color: azure;
+    display: flex;
 }
+
 .footer__boox {
 
-height:70%;
-color:azure;
-position:relative;
-margin:auto;
-display:flex;
-width:100%;
-margin-bottom:0px
+    height: 70%;
+    color: azure;
+    position: relative;
+    /* Илья: Ошибка, свойство margin не может дублироваться, ниже ты используешь margin-bottom */
+    /* Илья: можно вот так попробовать "margin: 0 auto;" */
+    margin: auto;
+    display: flex;
+    width: 100%;
+    margin-bottom: 0px
 }
-.footer__box-left{
-    
-    width:500px;
-    
+
+.footer__box-left {
+
+    width: 500px;
+
 }
-.footer__box-right{
-    
-    position:absolute;
-    top:0px;
-    right:0px;
-    width:800px;
-    height:98%;
+
+.footer__box-right {
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 800px;
+    height: 98%;
     display: flex;
 
-    
-}
-.box__right-2{
-    
-    height:auto;
-    width:200px;
-    position:absolute;
-    top:0px;
-    right:0px;
-    text-align:left;
-    padding-top:50px;
-    
-    
-    
 
 }
-.box__right-1{
-    
-    height:auto;
-    width:140px;
-    position:relative;
-    line-height:25px;    
+
+.box__right-2 {
+
+    height: auto;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: left;
     padding-top: 50px;
-    margin-left:150px;
+
+
 }
-   
+
+.box__right-1 {
+
+    height: auto;
+    width: 140px;
+    position: relative;
+    line-height: 25px;
+    padding-top: 50px;
+    margin-left: 150px;
+}
+
 .box__left-1 {
-    font-size:35px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    width:1000px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1000px;
     margin-left: 50px;
-    
-} 
-.box__left-2{
-position:relative;
-left:0px;
-top:180px;
-margin-left: 50px;
+
+}
+
+.box__left-2 {
+    position: relative;
+    left: 0px;
+    top: 180px;
+    margin-left: 50px;
 
 
 }
-.b{
-position:absolute;
-left:0px;
-top:0px;
+
+.b {
+    position: absolute;
+    left: 0px;
+    top: 0px;
 
 }
+
 .link__footer {
- text-align: left;
- position:relative;
+    text-align: left;
+    position: relative;
 }
+
 .link__box {
-    line-height:25px;    
-    width:100px
+    line-height: 25px;
+    width: 100px
 }
 
